@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  /* background: url(./assets/background.png) fixed; */
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -moz-background-size: cover;
+  font-family: 'Fredoka', cursive;
+  color: white;
+}
+
+body {
+  background-color: #5d3c18;
+  color: blue;
+  font-family: 'Carter One', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  background-size: cover;
+  background: url(./assets/background.png) fixed;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  background-color: #0d060f;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar-menu {
+  font-size: 10vh;
+  text-shadow: -4px -4px 1px #766b65;
+  text-shadow: -6px -6px 6px #766b65, 6px -6px 6px #766b65, -6px 6px 6px #766b65,
+    6px 6px 6px #766b65;
+  -webkit-text-stroke: 1px whitesmoke;
+  letter-spacing: 8px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  font-size: 10vh;
+  text-shadow: -4px -4px 1px #766b65;
+  text-shadow: -6px -6px 6px #766b65, 6px -6px 6px #766b65, -6px 6px 6px #766b65,
+    6px 6px 6px #766b65;
+  -webkit-text-stroke: 1px whitesmoke;
+  letter-spacing: 8px;
+}
+
+#home {
+  display: block;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+#logo {
+  height: 50vh;
+  width: auto;
+  color: whitesmoke;
+}
+
+#welcome {
+  text-align: center;
+  margin-bottom: 15vh;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button {
+  background-color: #101010;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  color: white;
+  height: 10vh;
+  width: 50%;
+  background-color: black;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+  letter-spacing: 8px;
+}
+
+.content {
+  display: flex;
+  height: 85vh;
+  width: 100vw;
+  flex-direction: row;
+}
+
+.half-section {
+  width: 50vw;
+  height: 85vh;
+  margin-top: 15vh;
+}
+
+.text-section {
+  color: #230000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-section img {
+  display: flex;
+  justify-content: right;
+  padding-left: 25vw;
+}
+
+.img-section {
+  height: 85vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1e2824;
+}
+
+.img-section img {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  padding: 0px auto;
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: blue;
+  margin:0;
+}
+
+h2 {
+  padding: 0px auto;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+h3 {
+  padding: 0px 50px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/* Cartelera */
+.menu {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 20px;
+  transition: 1s;
+}
+
+.menu-item a:hover {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+.menu-item a {
+  padding: 20px;
+  text-decoration: none;
+  color: lightseagreen;
+  font-size: 18px;
+  letter-spacing: 2px;
+  transition: all 1s;
+}
+
+/* Salas */
+.sala-content {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.full-section {
+  display: flex;
+  width: 100vw;
+  color: #230000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100vh;
+}
+
+.full-section img {
+  height: 75%;
+  width: 50%;
+  display: inline-block;
+}
+
+.sala-detail {
+  width: 100vw;
+  height: 10vh;
+  margin-top: 15vh;
+  flex-wrap: wrap;
+}
+
+.sala-title {
+  color: aliceblue;
+  background-color: #0d060f;
+  opacity: .8;
+  -webkit-text-stroke: 0px;
+}
+
+.sala-description {
+  background-color: #0d060f;
+  width: 100vw;
+  -webkit-text-stroke: 0px;
+}
+
+.sala-poster {
+  height: 60vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.sala-resume {
+  flex-direction: column;
+  height: 60vh;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  -webkit-text-stroke: 1px;
+  color: grey;
+  text-overflow: clip;
+  font-family: 'Comfortaa', cursive;
+  font-size: medium;
+}
+
+.sala-critics {
+  flex-direction: column;
+  height: 60vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  flex-wrap: wrap;
+}
+.sala-critics img {
+  width: 80%;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.button_view {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 100;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+  -webkit-text-stroke: 0px;
+}
